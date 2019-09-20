@@ -27,28 +27,28 @@
                 android:padding="15dp">
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:id="@+id/left_score_tv"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="0"
                     android:textSize="36sp"
                     tools:text="0" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/left_one_score_btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="1" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/left_two_score_btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="2" />
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/left_three_score_btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="3" />
@@ -62,28 +62,28 @@
                 android:padding="15dp">
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/right_score_tv"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="0"
                     android:textSize="36sp"
                     tools:text="0" />
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/right_one_score_btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="1" />
 
                 <Button
-                    android:id="@+id/button6"
+                    android:id="@+id/right_two_score_btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="2" />
 
                 <Button
-                    android:id="@+id/button7"
+                    android:id="@+id/right_three_score_btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="3" />
@@ -92,7 +92,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/reset_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="reset"
